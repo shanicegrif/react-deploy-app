@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "./src/assets/pursuit-logo.png"
+import Pic from "/src/assets/pursuit-logo.png"
 
 const Header = () => {
     return (
