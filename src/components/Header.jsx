@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
     return (
     <div class="header">
-        <div class="logo"><img src="./assets/pursuit-logo.png" alt="Pursuit logo" /></div>
+        <div class="logo"><img src="./src/assets/pursuit-logo.png" alt="Pursuit logo" /></div>
         <div class="menu">
         <ul>
             <li>

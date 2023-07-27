@@ -4,8 +4,7 @@ body {
 }
 
 html,
-body,
-#root {
+body{
   height: 100%;
   width: 100%;
 }
@@ -14,8 +13,8 @@ div{
   display: grid;
   grid-template-columns: repeat(1fr, 4);
   grid-template-areas:
-  "h h h h "
-  "s m m m "
+  "h h h h"
+  "s m m m"
   "f f f f";
 }
 .header{
@@ -70,12 +69,14 @@ div{
   background: #2d2d2d;
   color: white;
   text-align: center;
+  width: 25vw;
 }
 
 .main {
   background: #ececec;
   height: 750px;
   text-align: center;
+  width: 75vw;
 }
 
 .footer {
