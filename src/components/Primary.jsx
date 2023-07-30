@@ -2,12 +2,12 @@ import React from "react";
 
 const Primary = () => {
     return (
-        <div class="primary-content">
-            <div class="sidebar">
+        <div className="primary-content">
+            <div className="sidebar">
                 <p>Sidebar.</p>
             </div>
 
-            <div class="main">
+            <div className="main">
                 <p>Main content goes here.</p>
             </div>
         </div>

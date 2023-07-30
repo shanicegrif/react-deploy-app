@@ -3,9 +3,9 @@ import Pic from "/src/assets/pursuit-logo.png"
 
 const Header = () => {
     return (
-    <div class="header">
-        <div class="logo"><img src={Pic} alt="Pursuit logo"/></div>
-        <div class="menu">
+    <div className="header">
+        <div className="logo"><img src={Pic} alt="Pursuit logo"/></div>
+        <div className="menu">
         <ul>
             <li>
             <a href="https://pursuit.org">Pursuit Home Page</a>
